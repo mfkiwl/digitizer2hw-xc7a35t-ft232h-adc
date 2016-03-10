@@ -17,10 +17,14 @@ Eurocircuits 6 layer, 35µm copper inner/outer:
 - prepreg, 0.2mm
 - layer 6
 
-LVDS 100 Ohm:
+LVDS 100 Ohm, 2x signals outer:
 - reference layers 2, 3, 5
 - signal layers 1, 6 (outer): W = 0.19mm, S = 0.15mm
 - signal layer 4 (inner): W = 0.15mm, S = 0.165mm
+
+LVDS 100 Ohm, 2x signals inner:
+- reference layers 1, 3, 4, 6
+signal layers 2, 5 (inner): W = 0.14mm, S = 0.23mm
 
 8 Layer Option
 --------------
@@ -30,7 +34,7 @@ Eurocircuits 8 layer, 18µm copper inner, 30µm copper outer:
 
 LVDS 100 Ohm:
 - reference layers 2, 4, 6, 8
-- signal layers 3, 5, 7 (inner): W = 0.125mm, S = 0.22mm
+- signal layers 3, 5, 7 (inner): W = 0.125mm, S = 0.225mm
 - low freq and analog layer 1
 
 ADC Solution

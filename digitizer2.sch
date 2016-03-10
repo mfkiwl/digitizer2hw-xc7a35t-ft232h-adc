@@ -135,33 +135,293 @@ $EndComp
 $Comp
 L ADS5403 U4
 U 1 1 56D723AA
-P 9950 11250
-F 0 "U4" H 9950 9350 60  0000 C CNN
-F 1 "ADS5403" H 9950 9450 60  0000 C CNN
-F 2 "digitizer2_modules:BGA-196_pitch0.8mm_dia0.4mm" H 9950 9400 60  0001 C CNN
-F 3 "" H 9950 9400 60  0000 C CNN
-	1    9950 11250
+P 11550 11250
+F 0 "U4" H 11550 9350 60  0000 C CNN
+F 1 "ADS5403" H 11550 9450 60  0000 C CNN
+F 2 "digitizer2_modules:BGA-196_pitch0.8mm_dia0.4mm" H 11550 9400 60  0001 C CNN
+F 3 "" H 11550 9400 60  0000 C CNN
+	1    11550 11250
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR?
+U 1 1 56D761B1
+P 10450 11550
+F 0 "#PWR?" H 10450 11300 50  0001 C CNN
+F 1 "GND" H 10450 11400 50  0000 C CNN
+F 2 "" H 10450 11550 50  0000 C CNN
+F 3 "" H 10450 11550 50  0000 C CNN
+	1    10450 11550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56D76204
+P 10750 12150
+F 0 "#PWR?" H 10750 11900 50  0001 C CNN
+F 1 "GND" H 10750 12000 50  0000 C CNN
+F 2 "" H 10750 12150 50  0000 C CNN
+F 3 "" H 10750 12150 50  0000 C CNN
+	1    10750 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56D764BB
+P 10250 12750
+F 0 "#PWR?" H 10250 12500 50  0001 C CNN
+F 1 "GND" H 10250 12600 50  0000 C CNN
+F 2 "" H 10250 12750 50  0000 C CNN
+F 3 "" H 10250 12750 50  0000 C CNN
+	1    10250 12750
+	1    0    0    -1  
+$EndComp
+Text Label 3350 9350 0    60   ~ 0
+USB_D0
+Text Label 3350 9450 0    60   ~ 0
+USB_D1
+Text Label 3350 9550 0    60   ~ 0
+USB_D2
+Text Label 3350 9650 0    60   ~ 0
+USB_D3
+Text Label 3350 9750 0    60   ~ 0
+USB_D4
+Text Label 3350 9850 0    60   ~ 0
+USB_D5
+Text Label 3350 9950 0    60   ~ 0
+USB_D6
+Text Label 3350 10050 0    60   ~ 0
+USB_D7
+Text Label 3350 10200 0    60   ~ 0
+USB_RXF
+Text Label 3350 10300 0    60   ~ 0
+USB_TXE
+Text Label 3350 10400 0    60   ~ 0
+USB_RD
+Text Label 3350 10500 0    60   ~ 0
+USB_WR
+Text Label 3350 10700 0    60   ~ 0
+USB_CLKOUT
+Text Label 3350 10800 0    60   ~ 0
+USB_OE
+Text Label 3350 11050 0    60   ~ 0
+JTAG_TCK
+Text Label 3350 11150 0    60   ~ 0
+JTAG_TDI
+Text Label 3350 11250 0    60   ~ 0
+JTAG_TDO
+Text Label 3350 11350 0    60   ~ 0
+JTAG_TMS
+NoConn ~ 3350 10900
+NoConn ~ 3350 11450
+NoConn ~ 3350 11550
+NoConn ~ 3350 11650
+NoConn ~ 3350 11750
+NoConn ~ 3350 11900
+NoConn ~ 3350 12000
+NoConn ~ 3350 12100
+NoConn ~ 3350 12200
+NoConn ~ 3350 12300
+NoConn ~ 3350 12400
+NoConn ~ 3350 12500
+NoConn ~ 3350 12600
+NoConn ~ 3350 12850
+NoConn ~ 3350 12750
+Text Label 7200 9750 0    60   ~ 0
+DRAM_DQ15
+Text Label 7200 9850 0    60   ~ 0
+DRAM_DQ14
+Text Label 7200 9950 0    60   ~ 0
+DRAM_DQ13
+Text Label 7200 10050 0    60   ~ 0
+DRAM_DQ12
+Text Label 7200 10150 0    60   ~ 0
+DRAM_DQ11
+Text Label 7200 10250 0    60   ~ 0
+DRAM_DQ10
+Text Label 7200 10350 0    60   ~ 0
+DRAM_DQ9
+Text Label 7200 10450 0    60   ~ 0
+DRAM_DQ8
+Text Label 7200 10850 0    60   ~ 0
+DRAM_DQ7
+Text Label 7200 10950 0    60   ~ 0
+DRAM_DQ6
+Text Label 7200 11050 0    60   ~ 0
+DRAM_DQ5
+Text Label 7200 11150 0    60   ~ 0
+DRAM_DQ4
+Text Label 7200 11250 0    60   ~ 0
+DRAM_DQ3
+Text Label 7200 11350 0    60   ~ 0
+DRAM_DQ2
+Text Label 7200 11450 0    60   ~ 0
+DRAM_DQ1
+Text Label 7200 11550 0    60   ~ 0
+DRAM_DQ0
+Text Label 7200 11650 0    60   ~ 0
+DRAM_DQS0_P
+Text Label 7200 11750 0    60   ~ 0
+DRAM_DQS0_N
+Text Label 7200 10550 0    60   ~ 0
+DRAM_DQS1_P
+Text Label 7200 10650 0    60   ~ 0
+DRAM_DQS1_N
+NoConn ~ 4600 9950
+Text Label 4600 12350 2    60   ~ 0
+DRAM_CS
+Text Label 4600 12450 2    60   ~ 0
+DRAM_RAS
+Text Label 4600 12550 2    60   ~ 0
+DRAM_CAS
+Text Label 4600 12650 2    60   ~ 0
+DRAM_WE
+Text Label 4600 12150 2    60   ~ 0
+DRAM_CKE
+Text Label 4600 11950 2    60   ~ 0
+DRAM_CK_P
+Text Label 4600 12050 2    60   ~ 0
+DRAM_CK_N
+Text Label 4600 11650 2    60   ~ 0
+DRAM_BA1
+Text Label 4600 11550 2    60   ~ 0
+DRAM_BA0
+Text Label 4600 11750 2    60   ~ 0
+DRAM_BA2
+Text Label 4600 11350 2    60   ~ 0
+DRAM_A0
+Text Label 4600 11250 2    60   ~ 0
+DRAM_A1
+Text Label 4600 11150 2    60   ~ 0
+DRAM_A2
+Text Label 4600 11050 2    60   ~ 0
+DRAM_A3
+Text Label 4600 10950 2    60   ~ 0
+DRAM_A4
+Text Label 4600 10850 2    60   ~ 0
+DRAM_A5
+Text Label 4600 10750 2    60   ~ 0
+DRAM_A6
+Text Label 4600 10650 2    60   ~ 0
+DRAM_A7
+Text Label 4600 10550 2    60   ~ 0
+DRAM_A8
+Text Label 4600 10450 2    60   ~ 0
+DRAM_A9
+Text Label 4600 10350 2    60   ~ 0
+DRAM_A10
+Text Label 4600 10250 2    60   ~ 0
+DRAM_A11
+Text Label 4600 10150 2    60   ~ 0
+DRAM_A12
+Text Label 4600 10050 2    60   ~ 0
+DRAM_A13
+Text Label 7200 11950 0    60   ~ 0
+DRAM_DM0
+Text Label 7200 12050 0    60   ~ 0
+DRAM_DM1
+Text Label 7200 12450 0    60   ~ 0
+DRAM_ODT
+Text Label 7200 12750 0    60   ~ 0
+DRAM_RESET
+Text Label 7200 12650 0    60   ~ 0
+DRAM_ZQ
+Text Label 13350 10150 0    60   ~ 0
+ADC_OVRA_P
+Text Label 13350 10250 0    60   ~ 0
+ADC_OVRA_N
+Text Label 13350 10350 0    60   ~ 0
+ADC_DA11_P
+Text Label 13350 10450 0    60   ~ 0
+ADC_DA11_N
+Text Label 13350 10550 0    60   ~ 0
+ADC_DA10_P
+Text Label 13350 10650 0    60   ~ 0
+ADC_DA10_N
+Text Label 13350 10750 0    60   ~ 0
+ADC_DA9_P
+Text Label 13350 10850 0    60   ~ 0
+ADC_DA9_N
+Text Label 13350 10950 0    60   ~ 0
+ADC_DA8_P
+Text Label 13350 11150 0    60   ~ 0
+ADC_DA7_P
+Text Label 13350 11350 0    60   ~ 0
+ADC_DA6_P
+Text Label 13350 11550 0    60   ~ 0
+ADC_DA5_P
+Text Label 13350 11750 0    60   ~ 0
+ADC_DA4_P
+Text Label 13350 11950 0    60   ~ 0
+ADC_DA3_P
+Text Label 13350 12150 0    60   ~ 0
+ADC_DA2_P
+Text Label 13350 12350 0    60   ~ 0
+ADC_DA1_P
+Text Label 13350 12550 0    60   ~ 0
+ADC_DA0_P
+Text Label 13350 11050 0    60   ~ 0
+ADC_DA8_N
+Text Label 13350 11250 0    60   ~ 0
+ADC_DA7_N
+Text Label 13350 11450 0    60   ~ 0
+ADC_DA6_N
+Text Label 13350 11650 0    60   ~ 0
+ADC_DA5_N
+Text Label 13350 11850 0    60   ~ 0
+ADC_DA4_N
+Text Label 13350 12050 0    60   ~ 0
+ADC_DA3_N
+Text Label 13350 12250 0    60   ~ 0
+ADC_DA2_N
+Text Label 13350 12450 0    60   ~ 0
+ADC_DA1_N
+Text Label 13350 12650 0    60   ~ 0
+ADC_DA0_N
+Text Label 13350 12750 0    60   ~ 0
+ADC_DACLK_P
+Text Label 13350 12850 0    60   ~ 0
+ADC_DACLK_N
+NoConn ~ 13350 13050
+NoConn ~ 13350 13150
+Text Label 13350 9450 0    60   ~ 0
+ADC_SCLK
+Text Label 13350 9550 0    60   ~ 0
+ADC_SDIO
+Text Label 13350 9650 0    60   ~ 0
+ADC_SDO
+Text Label 13350 9750 0    60   ~ 0
+ADC_SDENB
+NoConn ~ 13350 9850
 Wire Wire Line
-	8950 10150 9850 10150
-Connection ~ 9050 10150
-Connection ~ 9150 10150
-Connection ~ 9250 10150
+	10550 10150 11450 10150
+Connection ~ 10650 10150
+Connection ~ 10750 10150
+Connection ~ 10850 10150
 Wire Wire Line
-	8450 9350 9350 9350
+	10050 9350 10950 9350
 Wire Wire Line
-	9550 9350 9650 9350
+	11150 9350 11250 9350
 Wire Wire Line
-	9850 9350 10950 9350
+	11450 9350 12550 9350
 Wire Wire Line
-	10750 10150 10050 10150
+	12350 10150 11650 10150
 Wire Wire Line
-	10950 11550 8850 11550
+	12550 11550 10450 11550
 Wire Wire Line
-	9150 12150 10950 12150
+	10750 12150 12550 12150
 Wire Wire Line
-	10950 12750 8650 12750
+	12550 12750 10250 12750
+Connection ~ 12450 9350
+Connection ~ 12350 9350
+Connection ~ 12250 9350
+Connection ~ 12150 9350
+Connection ~ 12050 9350
+Connection ~ 11950 9350
+Connection ~ 11850 9350
+Connection ~ 11750 9350
+Connection ~ 11650 9350
+Connection ~ 11550 9350
 Connection ~ 10850 9350
 Connection ~ 10750 9350
 Connection ~ 10650 9350
@@ -170,117 +430,143 @@ Connection ~ 10450 9350
 Connection ~ 10350 9350
 Connection ~ 10250 9350
 Connection ~ 10150 9350
-Connection ~ 10050 9350
-Connection ~ 9950 9350
-Connection ~ 9250 9350
-Connection ~ 9150 9350
-Connection ~ 9050 9350
-Connection ~ 8950 9350
-Connection ~ 8850 9350
-Connection ~ 8750 9350
-Connection ~ 8650 9350
-Connection ~ 8550 9350
-Connection ~ 9350 10150
-Connection ~ 9450 10150
-Connection ~ 9550 10150
-Connection ~ 9650 10150
-Connection ~ 9750 10150
-Connection ~ 10150 10150
-Connection ~ 10250 10150
-Connection ~ 10350 10150
-Connection ~ 10450 10150
-Connection ~ 10550 10150
-Connection ~ 10650 10150
-Connection ~ 8950 11550
-Connection ~ 9050 11550
-Connection ~ 9150 11550
-Connection ~ 9250 11550
-Connection ~ 9450 11550
-Connection ~ 9550 11550
-Connection ~ 9650 11550
-Connection ~ 9750 11550
-Connection ~ 9850 11550
-Connection ~ 9950 11550
-Connection ~ 10050 11550
-Connection ~ 10150 11550
-Connection ~ 10250 11550
-Connection ~ 10350 11550
-Connection ~ 10450 11550
+Connection ~ 10950 10150
+Connection ~ 11050 10150
+Connection ~ 11150 10150
+Connection ~ 11250 10150
+Connection ~ 11350 10150
+Connection ~ 11750 10150
+Connection ~ 11850 10150
+Connection ~ 11950 10150
+Connection ~ 12050 10150
+Connection ~ 12150 10150
+Connection ~ 12250 10150
+Connection ~ 10550 11550
 Connection ~ 10650 11550
 Connection ~ 10750 11550
 Connection ~ 10850 11550
+Connection ~ 11050 11550
+Connection ~ 11150 11550
+Connection ~ 11250 11550
+Connection ~ 11350 11550
+Connection ~ 11450 11550
+Connection ~ 11550 11550
+Connection ~ 11650 11550
+Connection ~ 11750 11550
+Connection ~ 11850 11550
+Connection ~ 11950 11550
+Connection ~ 12050 11550
+Connection ~ 12250 11550
+Connection ~ 12350 11550
+Connection ~ 12450 11550
+Connection ~ 12450 12150
+Connection ~ 12350 12150
+Connection ~ 12250 12150
+Connection ~ 12150 12150
+Connection ~ 12050 12150
+Connection ~ 11950 12150
+Connection ~ 11850 12150
+Connection ~ 11750 12150
+Connection ~ 11650 12150
+Connection ~ 11450 12150
+Connection ~ 11350 12150
+Connection ~ 11250 12150
+Connection ~ 11150 12150
+Connection ~ 11050 12150
+Connection ~ 10950 12150
 Connection ~ 10850 12150
-Connection ~ 10750 12150
-Connection ~ 10650 12150
-Connection ~ 10550 12150
-Connection ~ 10450 12150
-Connection ~ 10350 12150
-Connection ~ 10250 12150
-Connection ~ 10150 12150
-Connection ~ 10050 12150
-Connection ~ 9850 12150
-Connection ~ 9750 12150
-Connection ~ 9650 12150
-Connection ~ 9550 12150
-Connection ~ 9450 12150
-Connection ~ 9350 12150
-Connection ~ 9250 12150
-Connection ~ 8750 12750
-Connection ~ 8850 12750
-Connection ~ 8950 12750
-Connection ~ 9050 12750
-Connection ~ 9150 12750
-Connection ~ 9250 12750
-Connection ~ 9350 12750
-Connection ~ 9450 12750
-Connection ~ 9550 12750
-Connection ~ 9650 12750
-Connection ~ 9750 12750
-Connection ~ 9850 12750
-Connection ~ 9950 12750
-Connection ~ 10050 12750
-Connection ~ 10150 12750
-Connection ~ 10250 12750
 Connection ~ 10350 12750
 Connection ~ 10450 12750
 Connection ~ 10550 12750
 Connection ~ 10650 12750
 Connection ~ 10750 12750
 Connection ~ 10850 12750
-$Comp
-L GND #PWR?
-U 1 1 56D761B1
-P 8850 11550
-F 0 "#PWR?" H 8850 11300 50  0001 C CNN
-F 1 "GND" H 8850 11400 50  0000 C CNN
-F 2 "" H 8850 11550 50  0000 C CNN
-F 3 "" H 8850 11550 50  0000 C CNN
-	1    8850 11550
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 56D76204
-P 9150 12150
-F 0 "#PWR?" H 9150 11900 50  0001 C CNN
-F 1 "GND" H 9150 12000 50  0000 C CNN
-F 2 "" H 9150 12150 50  0000 C CNN
-F 3 "" H 9150 12150 50  0000 C CNN
-	1    9150 12150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 56D764BB
-P 8650 12750
-F 0 "#PWR?" H 8650 12500 50  0001 C CNN
-F 1 "GND" H 8650 12600 50  0000 C CNN
-F 2 "" H 8650 12750 50  0000 C CNN
-F 3 "" H 8650 12750 50  0000 C CNN
-	1    8650 12750
-	1    0    0    -1  
-$EndComp
-Connection ~ 9150 12150
-Connection ~ 8850 11550
-Connection ~ 8650 12750
+Connection ~ 10950 12750
+Connection ~ 11050 12750
+Connection ~ 11150 12750
+Connection ~ 11250 12750
+Connection ~ 11350 12750
+Connection ~ 11450 12750
+Connection ~ 11550 12750
+Connection ~ 11650 12750
+Connection ~ 11750 12750
+Connection ~ 11850 12750
+Connection ~ 11950 12750
+Connection ~ 12050 12750
+Connection ~ 12150 12750
+Connection ~ 12250 12750
+Connection ~ 12350 12750
+Connection ~ 12450 12750
+Connection ~ 10750 12150
+Connection ~ 10450 11550
+Connection ~ 10250 12750
+Wire Wire Line
+	6100 9050 6900 9050
+Connection ~ 6800 9050
+Connection ~ 6700 9050
+Connection ~ 6600 9050
+Connection ~ 6500 9050
+Connection ~ 6400 9050
+Connection ~ 6300 9050
+Connection ~ 6200 9050
+Wire Wire Line
+	5000 9050 5800 9050
+Connection ~ 5700 9050
+Connection ~ 5600 9050
+Connection ~ 5500 9050
+Connection ~ 5400 9050
+Connection ~ 5300 9050
+Connection ~ 5200 9050
+Connection ~ 5100 9050
+Wire Wire Line
+	2150 8950 2550 8950
+Connection ~ 2350 8950
+Connection ~ 2250 8950
+Wire Wire Line
+	1800 8950 2000 8950
+Connection ~ 1900 8950
+Wire Wire Line
+	1750 13250 2450 13250
+Connection ~ 2350 13250
+Connection ~ 2250 13250
+Connection ~ 2150 13250
+Connection ~ 2050 13250
+Connection ~ 1950 13250
+Connection ~ 1850 13250
+Wire Wire Line
+	5800 13250 6900 13250
+Connection ~ 6800 13250
+Connection ~ 6700 13250
+Connection ~ 6600 13250
+Connection ~ 6500 13250
+Connection ~ 6400 13250
+Connection ~ 6300 13250
+Connection ~ 6200 13250
+Connection ~ 6100 13250
+Connection ~ 6000 13250
+Connection ~ 5900 13250
+Wire Wire Line
+	4900 13250 5700 13250
+Connection ~ 5000 13250
+Connection ~ 5100 13250
+Connection ~ 5200 13250
+Connection ~ 5300 13250
+Connection ~ 5400 13250
+Connection ~ 5500 13250
+Connection ~ 5600 13250
+Wire Wire Line
+	3350 10600 3350 10550
+Wire Wire Line
+	3350 10550 2550 10550
+Wire Wire Line
+	2550 10550 2550 8950
+Connection ~ 2450 8950
+Text Label 1450 2900 0    60   ~ 0
+JTAG_TMS
+Text Label 1450 2400 0    60   ~ 0
+JTAG_TDI
+Text Label 1450 1600 0    60   ~ 0
+JTAG_TCK
+Text Label 1450 2500 0    60   ~ 0
+JTAG_TDO
 $EndSCHEMATC
