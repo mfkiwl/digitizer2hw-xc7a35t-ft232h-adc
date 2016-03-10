@@ -47,3 +47,15 @@ ADS5403
 - 142€, DigiKey
 - Pin compatible with 2 channel version
 - LVDS capable clock input
+
+FPGA Banks
+==========
+
+The I/O in 7 series FPGAs are classed as high range (HR) or high performance (HP). The HR I/Os offer the widest range of voltage support, from 1.2V to 3.3V. The HP I/Os are optimized for highest performance operation, from 1.2V to 1.8V.
+Bank 14 and bank 15 are HR I/O banks in the Artix-7 and Kintex-7 families.
+
+- Artix only provides HR banks (14|15|34|35)
+
+The configuration banks voltage select pin (CFGBVS) must be set to a High (VCCO_0) or Low (GND) to set the configuration and JTAG I/O in banks 0, 14, and 15 for 3.3V/2.5V or 1.8V/1.5V operation, respectively.
+
+- use 3.3V for bank 0 (JTAG-FTDI), set CFGBVS to VCCO_0
