@@ -587,31 +587,9 @@ Text Label 9650 11250 2    60   ~ 0
 ADC_CLKIN_P
 Text Label 9650 11350 2    60   ~ 0
 ADC_CLKIN_N
-Text Label 6950 1400 0    60   ~ 0
-DRAM_DQS1_P
-Text Label 6950 1500 0    60   ~ 0
-DRAM_DQS1_N
-Text Label 6950 2000 0    60   ~ 0
-DRAM_DQ12
-Text Label 6950 1000 0    60   ~ 0
-DRAM_DQ14
-Text Label 6950 1200 0    60   ~ 0
-DRAM_DQ15
-Text Label 6950 2100 0    60   ~ 0
-DRAM_DQ13
-Text Label 6950 1100 0    60   ~ 0
-DRAM_DQ8
-Text Label 6950 1300 0    60   ~ 0
-DRAM_DQ10
-Text Label 6950 1600 0    60   ~ 0
-DRAM_DM1
-Text Label 6950 1700 0    60   ~ 0
-DRAM_DQ11
-Text Label 6950 1800 0    60   ~ 0
-DRAM_DQ9
-Text Label 13300 3400 0    60   ~ 0
-ADC_DACLK_N
 Text Label 13300 3500 0    60   ~ 0
+ADC_DACLK_N
+Text Label 13300 3400 0    60   ~ 0
 ADC_DACLK_P
 Text Label 13300 5400 0    60   ~ 0
 ADC_DA4_P
@@ -657,13 +635,13 @@ Text Label 13300 2300 0    60   ~ 0
 ADC_DA11_P
 Text Label 13300 2200 0    60   ~ 0
 ADC_DA11_N
-Text Label 13300 2400 0    60   ~ 0
-ADC_DA10_P
-Text Label 13300 2500 0    60   ~ 0
-ADC_DA10_N
 Text Label 13300 1700 0    60   ~ 0
-ADC_OVRA_N
+ADC_DA10_P
 Text Label 13300 1600 0    60   ~ 0
+ADC_DA10_N
+Text Label 13300 2400 0    60   ~ 0
+ADC_OVRA_N
+Text Label 13300 2500 0    60   ~ 0
 ADC_OVRA_P
 Text Label 13300 1400 0    60   ~ 0
 ADC_SAMPLE_CLK_P

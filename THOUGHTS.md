@@ -24,7 +24,7 @@ LVDS 100 Ohm, 2x signals outer:
 
 LVDS 100 Ohm, 2x signals inner:
 - reference layers 1, 3, 4, 6
-signal layers 2, 5 (inner): W = 0.14mm, S = 0.23mm
+signal layers 2, 5 (inner): W = 0.13mm, S = 0.19mm
 
 8 Layer Option
 --------------
