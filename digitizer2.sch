@@ -684,55 +684,57 @@ DRAM_DQ6
 Text Label 6950 3300 0    60   ~ 0
 DRAM_DQ0
 Text Label 6950 3400 0    60   ~ 0
-T2_1
+DRAM_A13
 Text Label 6950 3500 0    60   ~ 0
-T2_2
+DRAM_A7
 Text Label 6950 3600 0    60   ~ 0
-T2_3
+DRAM_A5
 Text Label 6950 3700 0    60   ~ 0
-T2_4
+DRAM_CAS
 Text Label 6950 4000 0    60   ~ 0
-T2_5
+DRAM_A9
 Text Label 6950 4100 0    60   ~ 0
-T2_6
+DRAM_A12
 Text Label 6950 4200 0    60   ~ 0
-T2_7
+DRAM_WE
 Text Label 6950 4300 0    60   ~ 0
-T2_8
+DRAM_BA0
 Text Label 6950 4400 0    60   ~ 0
-T2_9
+DRAM_A2
 Text Label 6950 4500 0    60   ~ 0
-T2_10
+DRAM_A0
 Text Label 6950 3800 0    60   ~ 0
-T2_C_P
+DRAM_ODT
 Text Label 6950 3900 0    60   ~ 0
-T2_C_N
+DRAM_A3
 Text Label 6950 2600 0    60   ~ 0
 DRAM_DQS0_P
 Text Label 6950 2700 0    60   ~ 0
 DRAM_DQS0_N
 Text Label 6950 4600 0    60   ~ 0
-T3_1
+DRAM_A4
 Text Label 6950 4700 0    60   ~ 0
-T3_2
+DRAM_A1
 Text Label 6950 4800 0    60   ~ 0
-T3_3
+DRAM_A11
 Text Label 6950 4900 0    60   ~ 0
-T3_4
+DRAM_A8
 Text Label 6950 5000 0    60   ~ 0
-T3_C_P
+DRAM_CK_P
 Text Label 6950 5100 0    60   ~ 0
-T3_C_N
+DRAM_CK_N
 Text Label 6950 5200 0    60   ~ 0
-T3_5
+DRAM_BA1
 Text Label 6950 5300 0    60   ~ 0
-T3_6
+DRAM_RAS
 Text Label 6950 5400 0    60   ~ 0
-T3_7
+DRAM_CKE
 Text Label 6950 5500 0    60   ~ 0
-T3_8
+DRAM_A6
 Text Label 6950 5600 0    60   ~ 0
-T3_9
+DRAM_A10
 Text Label 6950 5700 0    60   ~ 0
-T3_10
+DRAM_BA2
+Text Label 6950 2900 0    60   ~ 0
+DRAM_RESET
 $EndSCHEMATC
