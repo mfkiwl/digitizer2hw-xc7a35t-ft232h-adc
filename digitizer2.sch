@@ -648,49 +648,41 @@ F 3 "" H 5900 11000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6950 1000 0    60   ~ 0
-T0_1
-Text Label 6950 1100 0    60   ~ 0
-T0_2
+DRAM_DQ12
 Text Label 6950 1200 0    60   ~ 0
-T0_3
+DRAM_DQ14
 Text Label 6950 1300 0    60   ~ 0
-T0_4
+DRAM_DQ8
 Text Label 6950 1400 0    60   ~ 0
-T0_C_P
+DRAM_DQS1_P
 Text Label 6950 1500 0    60   ~ 0
-T0_C_N
-Text Label 6950 1600 0    60   ~ 0
-T0_5
+DRAM_DQS1_N
 Text Label 6950 1700 0    60   ~ 0
-T0_6
+DRAM_DQ15
 Text Label 6950 1800 0    60   ~ 0
-T0_7
+DRAM_DQ13
 Text Label 6950 1900 0    60   ~ 0
 DRAM_DQ11
 Text Label 6950 2000 0    60   ~ 0
-T0_9
+DRAM_DQ10
 Text Label 6950 2100 0    60   ~ 0
-T0_10
+DRAM_DQ9
 Text Label 6950 2200 0    60   ~ 0
-T1_1
+DRAM_DQ5
 Text Label 6950 2300 0    60   ~ 0
-T1_2
+DRAM_DQ2
 Text Label 6950 2400 0    60   ~ 0
-T1_3
+DRAM_DQ4
 Text Label 6950 2500 0    60   ~ 0
-T1_4
-Text Label 6950 2800 0    60   ~ 0
-T1_5
-Text Label 6950 2900 0    60   ~ 0
-T1_6
+DRAM_DQ7
 Text Label 6950 3000 0    60   ~ 0
-T1_7
+DRAM_DQ3
 Text Label 6950 3100 0    60   ~ 0
-T1_8
+DRAM_DQ1
 Text Label 6950 3200 0    60   ~ 0
-T1_9
+DRAM_DQ6
 Text Label 6950 3300 0    60   ~ 0
-T1_10
+DRAM_DQ0
 Text Label 6950 3400 0    60   ~ 0
 T2_1
 Text Label 6950 3500 0    60   ~ 0
@@ -716,9 +708,9 @@ T2_C_P
 Text Label 6950 3900 0    60   ~ 0
 T2_C_N
 Text Label 6950 2600 0    60   ~ 0
-T1_C_P
+DRAM_DQS0_P
 Text Label 6950 2700 0    60   ~ 0
-T1_C_N
+DRAM_DQS0_N
 Text Label 6950 4600 0    60   ~ 0
 T3_1
 Text Label 6950 4700 0    60   ~ 0
