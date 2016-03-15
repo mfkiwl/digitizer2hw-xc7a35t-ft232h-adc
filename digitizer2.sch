@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:digitizer2
+LIBS:digitizer2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -646,4 +647,100 @@ F 3 "" H 5900 11000 60  0000 C CNN
 	1    5900 11050
 	1    0    0    -1  
 $EndComp
+Text Label 6950 1000 0    60   ~ 0
+T0_1
+Text Label 6950 1100 0    60   ~ 0
+T0_2
+Text Label 6950 1200 0    60   ~ 0
+T0_3
+Text Label 6950 1300 0    60   ~ 0
+T0_4
+Text Label 6950 1400 0    60   ~ 0
+T0_C_P
+Text Label 6950 1500 0    60   ~ 0
+T0_C_N
+Text Label 6950 1600 0    60   ~ 0
+T0_5
+Text Label 6950 1700 0    60   ~ 0
+T0_6
+Text Label 6950 1800 0    60   ~ 0
+T0_7
+Text Label 6950 1900 0    60   ~ 0
+DRAM_DQ11
+Text Label 6950 2000 0    60   ~ 0
+T0_9
+Text Label 6950 2100 0    60   ~ 0
+T0_10
+Text Label 6950 2200 0    60   ~ 0
+T1_1
+Text Label 6950 2300 0    60   ~ 0
+T1_2
+Text Label 6950 2400 0    60   ~ 0
+T1_3
+Text Label 6950 2500 0    60   ~ 0
+T1_4
+Text Label 6950 2800 0    60   ~ 0
+T1_5
+Text Label 6950 2900 0    60   ~ 0
+T1_6
+Text Label 6950 3000 0    60   ~ 0
+T1_7
+Text Label 6950 3100 0    60   ~ 0
+T1_8
+Text Label 6950 3200 0    60   ~ 0
+T1_9
+Text Label 6950 3300 0    60   ~ 0
+T1_10
+Text Label 6950 3400 0    60   ~ 0
+T2_1
+Text Label 6950 3500 0    60   ~ 0
+T2_2
+Text Label 6950 3600 0    60   ~ 0
+T2_3
+Text Label 6950 3700 0    60   ~ 0
+T2_4
+Text Label 6950 4000 0    60   ~ 0
+T2_5
+Text Label 6950 4100 0    60   ~ 0
+T2_6
+Text Label 6950 4200 0    60   ~ 0
+T2_7
+Text Label 6950 4300 0    60   ~ 0
+T2_8
+Text Label 6950 4400 0    60   ~ 0
+T2_9
+Text Label 6950 4500 0    60   ~ 0
+T2_10
+Text Label 6950 3800 0    60   ~ 0
+T2_C_P
+Text Label 6950 3900 0    60   ~ 0
+T2_C_N
+Text Label 6950 2600 0    60   ~ 0
+T1_C_P
+Text Label 6950 2700 0    60   ~ 0
+T1_C_N
+Text Label 6950 4600 0    60   ~ 0
+T3_1
+Text Label 6950 4700 0    60   ~ 0
+T3_2
+Text Label 6950 4800 0    60   ~ 0
+T3_3
+Text Label 6950 4900 0    60   ~ 0
+T3_4
+Text Label 6950 5000 0    60   ~ 0
+T3_C_P
+Text Label 6950 5100 0    60   ~ 0
+T3_C_N
+Text Label 6950 5200 0    60   ~ 0
+T3_5
+Text Label 6950 5300 0    60   ~ 0
+T3_6
+Text Label 6950 5400 0    60   ~ 0
+T3_7
+Text Label 6950 5500 0    60   ~ 0
+T3_8
+Text Label 6950 5600 0    60   ~ 0
+T3_9
+Text Label 6950 5700 0    60   ~ 0
+T3_10
 $EndSCHEMATC
