@@ -737,4 +737,34 @@ Text Label 6950 5700 0    60   ~ 0
 DRAM_BA2
 Text Label 6950 2900 0    60   ~ 0
 DRAM_RESET
+Text Label 4250 2200 0    60   ~ 0
+USB_D0
+Text Label 4250 1500 0    60   ~ 0
+USB_D1
+Text Label 4250 2300 0    60   ~ 0
+USB_D2
+Text Label 4250 3200 0    60   ~ 0
+USB_D3
+Text Label 4250 2500 0    60   ~ 0
+USB_D4
+Text Label 4250 2400 0    60   ~ 0
+USB_D5
+Text Label 4250 2700 0    60   ~ 0
+USB_D6
+Text Label 4250 2600 0    60   ~ 0
+USB_D7
+Text Label 4250 1700 0    60   ~ 0
+USB_RXF
+Text Label 4250 3300 0    60   ~ 0
+USB_TXE
+Text Label 4250 2900 0    60   ~ 0
+USB_RD
+Text Label 4250 2800 0    60   ~ 0
+USB_WR
+Text Label 4250 3100 0    60   ~ 0
+USB_OE
+Text Label 4250 3500 0    60   ~ 0
+USB_CLKOUT
+Text Label 13350 9250 0    60   ~ 0
+ADC_RESET
 $EndSCHEMATC
