@@ -377,8 +377,6 @@ Text Label 13350 9450 0    60   ~ 0
 ADC_SCLK
 Text Label 13350 9550 0    60   ~ 0
 ADC_SDIO
-Text Label 13350 9650 0    60   ~ 0
-ADC_SDO
 Text Label 13350 9750 0    60   ~ 0
 ADC_SDENB
 NoConn ~ 13350 9850
@@ -766,5 +764,14 @@ USB_OE
 Text Label 4250 3500 0    60   ~ 0
 USB_CLKOUT
 Text Label 13350 9250 0    60   ~ 0
-ADC_RESET
+ADC_SRESET
+NoConn ~ 13350 9650
+Text Label 9250 1600 0    60   ~ 0
+ADC_SDIO
+Text Label 9250 1500 0    60   ~ 0
+ADC_SRESET
+Text Label 9250 1700 0    60   ~ 0
+ADC_SCLK
+Text Label 9250 2300 0    60   ~ 0
+ADC_SDENB
 $EndSCHEMATC
