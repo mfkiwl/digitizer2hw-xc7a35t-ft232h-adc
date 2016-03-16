@@ -24,19 +24,10 @@ LVDS 100 Ohm, 2x signals outer:
 
 LVDS 100 Ohm, 2x signals inner:
 - reference layers 1, 3, 4, 6
-signal layers 2, 5 (inner): W = 0.13mm, S = 0.19mm, D >= 0.4mm
+- signal layers 2, 5 (inner): W = 0.13mm, S = 0.19mm, D >= 0.4mm
 
-
-8 Layer Option
---------------
-
-Eurocircuits 8 layer, 18µm copper inner, 30µm copper outer:
-- core/prepreg 0.2mm between all 8 layers
-
-LVDS 100 Ohm:
-- reference layers 2, 4, 6, 8
-- signal layers 3, 5, 7 (inner): W = 0.125mm, S = 0.225mm
-- low freq and analog layer 1
+USB 90 Ohm:
+- signal layers 2, 5 (inner): W = 0.163mm, S = 0.19mm
 
 
 FPGA Solution

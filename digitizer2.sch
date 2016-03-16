@@ -559,9 +559,9 @@ Wire Wire Line
 Connection ~ 1750 13250
 Connection ~ 1650 13250
 Text Label 750  10900 2    60   ~ 0
-USB_CON_DM
+USB_CON_D_N
 Text Label 750  11000 2    60   ~ 0
-USB_CON_DP
+USB_CON_D_P
 Text Label 9650 10250 2    60   ~ 0
 ADC_INA_P
 Text Label 9650 10350 2    60   ~ 0
