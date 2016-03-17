@@ -79,11 +79,14 @@ Power Supply
 ============
 
 LTC3569 (Triple Buck):
+http://www.digikey.de/product-detail/de/linear-technology/LTC3569EUD%23PBF/LTC3569EUD%23PBF-ND/1991840
 - 1V (VCC_INT, VCC_BRAM)
 - 1.8V (VCC_AUX, VCC_ADC)
 - 1.5V (VCC_DRAM)
 
 3.3V Supply for FTDI and GPIO
 
-ADC Supply (TBD)
+ADC Supply
+- 3.3V (http://www.digikey.de/product-detail/de/texas-instruments/TPS79633DCQR/296-13766-1-ND/509963)
+- 1.8V (http://www.digikey.de/product-detail/de/texas-instruments/TPS79618DCQR/296-13762-1-ND/509955)
 
