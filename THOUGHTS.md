@@ -80,9 +80,9 @@ Power Supply
 
 LTC3569 (Triple Buck):
 http://www.digikey.de/product-detail/de/linear-technology/LTC3569EUD%23PBF/LTC3569EUD%23PBF-ND/1991840
+- 1.5V (VCC_DRAM)
 - 1V (VCC_INT, VCC_BRAM)
 - 1.8V (VCC_AUX, VCC_ADC)
-- 1.5V (VCC_DRAM)
 
 3.3V Supply for FTDI and GPIO
 
