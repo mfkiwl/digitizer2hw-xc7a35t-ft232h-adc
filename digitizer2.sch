@@ -35,10 +35,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Digitizer 2"
 Date ""
 Rev ""
-Comp ""
+Comp "TU Kaiserslautern"
 Comment1 ""
 Comment2 ""
 Comment3 ""
