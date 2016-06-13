@@ -78,15 +78,23 @@ JTAG only configuration mode: M[2:0] <= "101"
 Power Supply
 ============
 
-LTC3569 (Triple Buck):
-http://www.digikey.de/product-detail/de/linear-technology/LTC3569EUD%23PBF/LTC3569EUD%23PBF-ND/1991840
-- 1.5V (VCC_DRAM)
-- 1V (VCC_INT, VCC_BRAM)
-- 1.8V (VCC_AUX, VCC_ADC)
-
-3.3V Supply for FTDI and GPIO
+FPGA Core
+- 1.0V (http://www.digikey.de/product-detail/de/analog-devices-inc/ADP2108AUJZ-1.0-R7/ADP2108AUJZ-1.0-R7CT-ND/2355507)
+FPGA LVDS Banks
+- 2.5V LM3671MF-2.5
 
 ADC Supply
-- 3.3V (http://www.digikey.de/product-detail/de/texas-instruments/TPS79633DCQR/296-13766-1-ND/509963)
-- 1.8V (http://www.digikey.de/product-detail/de/texas-instruments/TPS79618DCQR/296-13762-1-ND/509955)
+- 2.5V TPS79625DCQ
+2mA
+- 1.8V TPS79618DCQ
+65mA + 35mA + 170mA + 90mA = 360mA
+- 3.3V TPS79633DCQ
+170mA
+
+
+Modular Design
+==============
+Board-To-Board Differential Connectors
+http://www.digikey.de/product-detail/de/samtec-inc/QTH-040-01-L-D-DP-A/SAM8849-ND/2345118
+http://www.digikey.de/product-detail/de/samtec-inc/QSH-040-01-L-D-DP-A/SAM8843-ND/2345116
 

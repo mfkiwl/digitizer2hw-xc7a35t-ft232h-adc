@@ -6,6 +6,11 @@ K EEPROM memory SPI microwire
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
 $ENDCMP
 #
+$CMP Crystal_ABM8G
+D SMD crystal
+K Quartz, Ceramic, Filter, Resonator
+$ENDCMP
+#
 $CMP LTC3569
 D LTC3569EUD
 $ENDCMP
