@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name digitizer2_modules)(type KiCad)(uri /home/pwuertz/Software/digitizer2/hardware/lib/digitizer2_modules.pretty)(options "")(descr ""))
+)
