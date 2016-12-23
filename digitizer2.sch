@@ -36,10 +36,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Digitizer 2"
-Date ""
-Rev ""
+Date "2016-12-23"
+Rev "rev1.2"
 Comp "TU Kaiserslautern"
-Comment1 ""
+Comment1 "Distributed under the terms of the GNU General Public License Version 3"
 Comment2 ""
 Comment3 ""
 Comment4 ""
